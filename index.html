@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/main.min.css"> -->
+    <title>Creative Card 2</title>
+   <style>
+    body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    background-image: url('https://i.pinimg.com/originals/39/6e/f1/396ef1a17adf00788458eefe88fdc09d.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    /* margin: 5px; */
+    position: relative;
+    width: 270px;
+    height: 500px;
+    background: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  .card:hover{
+    margin: 20px;
+  }
+  .card:before,
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 1s;
+    z-index: -1;
+  }
+  
+  .card:hover:before {
+    transform: rotate(360deg);
+    background: linear-gradient(#0093e9, #80d0c7);
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover:after {
+    transform: rotate(360deg);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .imgBox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 1s;
+    z-index: 2;
+  }
+  
+  img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .card:hover .imgBox {
+    bottom: 80px;
+  }
+  
+  .details {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+  }
+  
+   </style>
+  </head>
+  <body>
+    <section class="card">
+      <section class="imgBox">
+        <img src="https://lh3.googleusercontent.com/ZS-6zJa4vCTh6Ipdw6jIZOL6wAHAhB1xcQXtpkaq8zRVe9zs5bdatcqcBHrEuQALh8pwINZsN1j9vkadHHi_IhWkeTh1blk8UyYwKM3vH8rmQVxwWLnVADeU3Zq5IycKW2lliRoxgFgrumBflzxhI-LVXtU-5az7Ymd8P4pCrsWP5UxSpDPUofy4zpDBtyVcrPMqbiBWncop3zGrYKtvP2RM1AgkS2OSkHUQ8FE3xYImgq42lSeLkjVZ6KhQCJGUqy5N51-KIQKjgDXiONo7tuAsl_RAO0WdLA6Qgai673p19cOjk2vhFxodg4nm4zLXvp6TMyZrgVakZfePL8ymedUZU6nT9ohITvItLUKuDdGrW4CGQcjm6fFbinhimUWLTTpJ8UIb1JsKla2lGSe7G2t6vf9kPE8ouD8JSicglPA3eLa83BxHbho2t7SjQIabi8H_71JzzbloRPLDkxb1fWySFjoquQh5hZ5yPX4XlEL8pLXVlxNn1MXQnXZZ8gP2r5RMYT27_5iOag8uuXDiyQU_bEhnBjgB7VWaCmhtwEvlia0IsHyUh3NAh_vL_NpeW5mB7BhHL03OuKxsbdm7lSxAYuRcXDD_-eN2xGlwrH4Ul7t1um5dY-mM4TlqZm3yMxQpB1ZRTAUmcBLWpNPn5ljjVjGeDOnE49jsa5ve1nFbJjLNdxaKd0Fa2PYz1o2vTD3rgNEwJ5OigfuKBtNbJDJ7q6KYaxiOD7MapPSAQflWq7TkJxk2ikhz7o_F6n3v3nYDYjhvfM6r_hfMHY93c446CL3V78CbXJ8dk0_UXQjJgMAz-6KO7RlcNR7zNWylU_bR1QHnVf3xONWGTw9a4Dp5DIWJh_liPqcHvZutS6P-HYBs46lLl6lhSvW00yExJRvd2XWQDnjCvMUv64jQ1T44yW7z9iOahRtSNRXzFKYaqYZv=w375-h666-no?authuser=0" />
+      </section>
+      <article class="details">
+        <h2>Rana</h2>
+      </article>
+    </section>
+    <section class="card">
+      <section class="imgBox">
+        <img src="https://lh3.googleusercontent.com/3E_642VF8oMWpVIdFZV5g47OIADBGPKK9cOFsxdriUJqx6E8cAFcEwLnHo9rIJzmGeJNu7SRENWnqBp5tBCr-_4OwT-ZBs07Gi30Q9O380G_HZUBVOYr0pW4cl2XTgsziG3Gp8FaEPvalL_xszfvrt3mFk79ucO9sNw8JxP_f0If37YVeOU4f_bAAOBqXSzawXZz931kuKmnE4dmbpJS5MboLrv7JBqPkUf36oR6CayCml3e2g1Txp5vJkjMYpfRMbK1O_v6u7y9RjfR9eOKR7a3FAVOFDC8vhPW5xWYs-JcVXIUXJDwmE2zY0ihfMhYqW7_msWkYlalrG8zopNfj-lgwjScPMLNV_MO9523l1RKkGE9gLRfDQVf9WvMK0Yod3FB6F674jvKg-ibFDLl4FZvMoszVXRABXCYGo9AXeIDr05SJCNMlhC-8nmOQC1hAnQ6Y8qePe0zqpUbjZ3Ba8uhEXZsXAqOYl_i9KaN4pmOGPdhtbWtoTyO_PSjxgPBLDgkv-immJDKK_EaVbIN5OAxbyCg7t0_0HbUHtpWOInp0HW0DcxCEfyZtx8RYK6hPVEZmFaltiAETK67yEC6QV4kCBse0p7oqk3FFIN7Q2Xve6SUqR30c41nRHjn2B_QAD5I9Q5hYoYljlEEGZCZu1Hzr6J69BNlngxXnA_MTL1FGP64mRZP8fkf6L3F9ui2KJShAVo_3FvTXl03dbxodS_ag38YPOSMywC93L7V1eie5GxWEK1uM4GB71UT4CYerj3CCL2JKWsgywzoAvst4rg5I68M5t7h_8LMhMTv-9XmyKhNaS7Ix1BlWfdl3LTF6nzvKspJdkUdAAOAidIR0MN7OnALrQ4YwRxoVI-T_ykvfP6Zjn9VmO1svT6gGNpShGXibEn4easF40e8vFsF4wMaKCOZmrjFr46cGoFDKCKbze8P=w375-h666-no?authuser=0" />
+      </section>
+      <article class="details">
+        <h2>Muhammad</h2>
+      </article>
+    </section>
+    <section class="card">
+      <section class="imgBox">
+        <img src="https://lh3.googleusercontent.com/U5F4Y0StvCv9b8ElmdBWBUF6lzQANMt3ue2oB7oQ4tjMgiMdofPSiQ7y06J7JbvnCVY8KANjN-oF8OuzGCE6oZoV6xuM1gbmo6LN5BcsxKwwCG-CTwsEbyV8_EVVTO8bOv6AsA68nfNWNiSA3q_WFOxpo7VJZKAK-MksZgAZVjTM9-_93R8m2_EyP7cUNmFM2hlCEpZO7n3KeCR3p3aS8qTTeDLj473R4M6G5YAvOfNHX9xx_UJnAgav3gJ0xBGsqy_UU8Y1ORVkefuXEMIUMGbe9r2kHRgi0Eb2yysNUIZzpiJeybNvYDpswwjg2hrsBXcNOKCtb5GRqKvOLf4hh9B6NKgv4fN8SefhuxFj12VzTSAGVMkditmhjki43ffuqYh9X1thTJzviYp9Cx02Aqc__kh68GQCysIB48_BldsnbaB97TWydczlevbqOK_ZbORraP2bS0qzJS9HL2KWwOeuHEGT5Lsokq2lLnK1Q8Ehu6WytmzRLZ-hH1M4CxeGYDBknsQ7Dnuy82MGEnWQMBLJuiAaiQUymABsocuQz_s-R-dSHyAnUxO46gBT8eSc4vEveIg_DS6SpgQl3alU10XWkbJ-crc2ZHFTN9HieZ-vb5he_gUJCtia_1R631CszffLjuGJwely6NGYQqCZlmvFnaf6dCIzgxKhbtMMUFQBoP-SwxoO-97uXHMp7UjCiaMORwVuC6LVZXODabF-lzELlr51hqRoOe8D6nHWkxm4sxMnH5sYqZopSJ4anQGuF_QdP4BiLMYdNA9AYIk_PbRz_sdLWzjaeZ7ZiXTqXmlQHAI9IYmh3AnARUuBErSaxKIGMwv_sbRzOa-GjddJIspyzwjIrdRG2KFjP0piaY732xOET05RBJZlI6gIDMtsrHsqjoBdjgCo9YxKl8Rm6mFO6ZPxP6PJlSzvYe0cpPt8H84p=w375-h666-no?authuser=0" />
+      </section>
+      <article class="details">
+        <h2>Rabees</h2>
+      </article>
+    </section>
+    <section class="card">
+      <section class="imgBox">
+        <img src="https://lh3.googleusercontent.com/MRDEnlHCJAExZQI2IexxMPvBUlsvnBwmPxaGKapFlXuTffDM2fOHLfHp8VdsHZ2pVg7QLcMKFH-9RbrU96Ho_TkDAD5StjiSh-VCNXOzgZE1o_XgG9tWaLgWpRdfcXFR4o-iPO7OQKqbASD3CpqbnXO_yhUFYwk-QRho-Fnmv1cC6adGoXb3kB9Dh5WLxXMeFAn5y5tQJonL3q7rlgpa3QXAy9YqkvFM2KWvs2UzkWYDixxbbL2NOet6rEYnCuxqfU-xzVICAHCOt1yz33VeKH3LKKJ_acmCWyEjZ9IHRPNrDtLa-jpJVpt_RAypbO2wbEBy_i4eRn_Mm4wQ0_YyzN2bipU9vniOvuI-L6829uFBj6VnvCKlBjwMN5fanktnwadN1kF2efxqrViuyHDr9MI1c9RyE9CCqkyHYo1S3i4qWt8NEAwQvX_4Czzao_Tb2AAhUCVgp6Kl1ntLn1b41jtAyOe4hTlblNL6bzkHIWDPTEMswfNSMGc4JCbUdaqfTW0PU7cPPLXGTEDnesclS0LP0PuwDM9x6nlQxhmmhLe5Za1aV-HtyZpQUvK-d7YaXnGOsWcBOteCMglK075cbTwnlN2dIfuZx-k_YIIkIl3kRlChvttMPdZrgUs3qoIs7BBwxkLLPM4u6jZ2mqK-oI7ZCB96Tlt7qjVQjm-PV3R8CvntF2oAaEsOtMB6E1rquRdWUtbr-YKCLyuFDBrVbZgHE3tz3xEQ3HzNgVwsFvWFk91UqEIzvnNBKckzwxJTLmWbIR5DY0clEg01xqRlexhmB7F7YeSeqkkmrj2ksEAm9iSa1C8LDcU8jB2ym-YeHKYkUAoz-hX7zP0WFn34hEw3rMtNW3r1H0bKMNOFeau96eo-8IXJM_FfJZn40MVNYCCXZuMr8J6vQwnXas9-fVpUhGX9IYSEGgBYtN1cEPpd-K8Y=w375-h666-no?authuser=0" />
+      </section>
+      <article class="details">
+        <h2>Hussain</h2>
+      </article>
+    </section>
+    
+  </body>
+</html>
